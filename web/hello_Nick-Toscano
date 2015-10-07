@@ -5,4 +5,17 @@
   <body>
     Hello world welcome to my website where everyone can have fun safe chats. Adventists forum was created for the use of teenage christians who love God.
   </body>
+  <div id="container">
+  <div id="header">
+        <p>logo</p>
+        </div>
+<div id="content">
+<div id="nav"></div>
+<div id="article"></div>
+</div>
+<div id="footer">
+    <p>Footer</p>
+
+</div>
+ </body> 
 </html>
