@@ -1,0 +1,19 @@
+body {
+    background-color: #eee; 
+}
+#header {
+background-color: #66ccff;
+    color: white:
+        padding: 100px; 
+} 
+#container {            
+    background-color: white;
+    width: 8000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;   
+} 
+
+#CONTENT {
+    PADDING: 10PX;
+}  
