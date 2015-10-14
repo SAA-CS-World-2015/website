@@ -1,11 +1,26 @@
 body {
     background-color: #eee;
+<<<<<<< HEAD
 }
+=======
+    font-family: helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+h1, h2, h3, h4 {
+    margin: 0
+}
+
+>>>>>>> origin/Nathan's-Website
 #header {
-    background-color: #66ccff;
+    background-color: darkblue;
     color: white;
     padding: 10px;
 }
+<<<<<<< HEAD
 #container {
     background-color: white;
     width: 800px;
@@ -16,3 +31,36 @@ body {
     
 }
     
+=======
+
+#container {
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+}
+#content {
+    padding: 10px;
+}
+#nav {
+    width: 180px;
+    float: left;
+}
+#nav .selected {
+    font-weight: bold;
+}
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+#article {
+    width: 600px;
+    float: right
+}
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999;
+    text-align: right;
+}
+
+>>>>>>> origin/Nathan's-Website
