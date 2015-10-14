@@ -13,3 +13,13 @@ body {
     color: white;
     padding: 10px;
 }
+#content {
+    padding: 10px;
+}
+#nav {
+    width: 180px;
+    float: left;
+}
+#article {
+    width: 600px;
+}
