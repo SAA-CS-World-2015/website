@@ -1,18 +1,25 @@
 body {
-    background-color: #eee;
+    background-color: black;
 }
-
 #container {
-    background-color: white;
+    background-color: black;
     width: 800px;
     margin: 0 auto;
 }
 
 #header {
-    background-color: #66ccff;
+    background-color: gold;
     color: white;
     padding: 10px;
+    margin-left: 100px;
+    margin-right: -10px;
 }
 #content {
+    background-color: white;
+color: black;
     padding: 10px;
+    margin-top: 200px
+}
+#footer{
+    background-color: grey
 }
