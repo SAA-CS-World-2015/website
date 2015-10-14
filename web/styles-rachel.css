@@ -1,9 +1,18 @@
 body{
     background-color: #eee;
+    font-family: helvetia, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+h1, h2, h3 {
+    margin: 0;   
 }
 
 #header {
-    background-color: #66ccff;
+    background-color: #0077ff;
     color: white;
     padding: 10px;
 }
@@ -19,11 +28,23 @@ body{
 #nav {
    width: 180px; 
     float: left;
+    
 }
+#nav .selected {
+    font-weight: bold;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 #article {
     width: 600px;
     float: right;
 }
 #footer {
     clear: both;
+    padding: 10px;
+    background-color: #999;
+    text-align: right;     
 }
