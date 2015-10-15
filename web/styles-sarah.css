@@ -1,7 +1,15 @@
 body {
     background-color: #eee;
+    font-family: helvetica, sans-serif;
 }
 
+a {
+    text-decoration:none;
+    color:red;
+}
+h1,h2,h3 {
+    margin: 0
+}
 #container {
     background-color: white;
     width: 800px;
@@ -18,4 +26,22 @@ body {
 }
 #nav{
     width: 180px;
+    float: left;
+}
+#nav .selected{
+    font-weight: bold; 
+}
+#nav ul{
+    list-style: none;
+    padding: 0;
+}
+#article{
+    width: 600px;
+    float: right;
+}
+#footer{
+    clear: both;
+    padding; 10px;
+    background-color: #999;
+    text-align: right;
 }
