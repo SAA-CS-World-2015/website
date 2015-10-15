@@ -1,18 +1,47 @@
 body {
     background-color: #eee;
+    font-family: helvetica, sans-serif;
 }
-#header {
-   background-color: #66ccff;
-    color: white;
-    Padding: 10px;
+
+a {
+    text-decoration: none;
+    color: red;
+}
+h1, h2, h3 {
+    margin: 0;
 }
 #container {
     background-color: white;
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
     margin: 0 auto;
+}
+
+#header {
+    background-color: #66ccff;
+    color: white;
+    Padding: 10px;
 }
 #content {
     padding: 10px;
+}
+#nav {
+    width: 180px;
+    float: left;
+}
+#nav .selected {
+    font-weight: bold
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+#article {
+    width: 600px;
+    float: right;
+}
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999;
+    text-align: right;
 }
