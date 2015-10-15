@@ -1,0 +1,47 @@
+body {
+background-color:black;
+font-family: helvectica, sans-serif
+}
+
+a {
+text-decoration: none;
+color: aqua;
+} 
+h1, h2, h3 { 
+margin: 0;  
+}
+#container {
+background-color: dimgrey;
+width: 800x;
+margin: 0 auto
+}
+
+#header {
+background-color: cyan;
+color: black;
+padding: 10px;
+}
+#content { 
+padding: 10px;
+}
+#nav {
+width: 180px;  
+float: left;
+}
+#nav .selected {
+    font-weight: bold;
+}
+#nav ul{
+list-style-type: none;
+padding: 0;
+}
+#article {
+width: 600px;
+float: right;
+}
+#footer {
+clear: both;
+padding: 10px;
+background-color: gray;
+text-align: right;
+    
