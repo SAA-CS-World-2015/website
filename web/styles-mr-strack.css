@@ -1,35 +1,43 @@
 body {
   background-color: #eee;
-    font-family: helvetica, sans-serif;
+    font-family: 'Rockwell';
 }
 
 a {
     text-decoration: none;
-    color: red;
+    color: white;
 }
 h1, h2, h3 {
     margin: 0;
 }
 
 #container {
-    background-color:dimgray;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0 auto;    
+    background-color: rgb(25%, 25%, 25%);
+    max-width: 1500px;
+    height: auto;
+    margin: 0 auto;   
 }
 #header {
-    background-color: #999;
-    color: white;
-    padding: 10px ;
-    text-align: center
+    background-color: rgb(25%, 25%, 25%);
+    padding: none;
+    text-align: center;
+}
+#header p {
+    text-decoration: underline;
+    color: black;
+    font-family: 'Rockwell Condensed';
+    font-size: 48;
 }
 #content {
     padding: 10px ;
 }
 #nav {
-    width: 180px;
-    float: left;
+    width: clear;
+    float: middle;
+    display: inline;
+    text-align: center;
+    font-family: 'Rockwell';
+    font-size: 14;
 }
 #nav .selected {
     font-weight: bold;
@@ -37,14 +45,22 @@ h1, h2, h3 {
 #nav ul{
     list-style-type: none;
     padding: 0;
+    margin: 10px;
+}
+#nav li{
+    display: inline;
+    padding: 8px; 
 }
 #article {
-    width: 600px;
-    float: right;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Rockwell';
 }
 #footer {
   clear: both;
-    padding: 10px;
-    background-color: #999;
-    text-align: right;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Rockwell Condensed';
 }
