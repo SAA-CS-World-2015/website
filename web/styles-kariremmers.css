@@ -1,15 +1,25 @@
 #body {
-    background-color: #fdfdfd;
-    font-family: impact, fantasy;
+    background-color: #ffffff;
+    width: auto;
 }
 
 a {
-    text-decoration: solid
-    color: red
+    text-decoration: solid;
+    color: red;
+    
 }
 #container {
-    background-color: #fcfcfc
+    background-color: #ffeef0;
+    width: 1000px;
+    margin: 10;
+    
 }
 #header {
-    background-color: #f7f7f7
+    background-color: #ffffff;
+    width: 500px;
+    padding: 10px;
+    color: red;
+    font-family: impact, fantasy;
+    font-size: 54;
+    align-font: center;
 }
