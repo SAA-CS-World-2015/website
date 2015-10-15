@@ -1,0 +1,54 @@
+body {
+    background-color: #EEE;
+}
+
+a {
+    text-decorative: none;
+    color:red
+}
+
+h1 ,h2, h3 {
+    margin: 0
+}
+
+#container {
+    backrgound-color: white;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color:66CCFF;
+    color: white;
+    pading: 10px;
+}
+
+#content {
+    padding: 10px;
+}
+
+#nav {
+    width:180px;
+    float: left;
+}
+
+#nav .selected {
+    border-color: crimson
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#article {
+    width: 600px;
+    float: right;
+}
+ 
+ #footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999;
+    text-align: right;
+}
