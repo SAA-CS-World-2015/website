@@ -1,8 +1,8 @@
 body {
-    background-color: lightgray;
+    background-color: black;
 }
 #container {
-    background-color: white;
+    background-color: black;
     width: 800px;
     margin: 0 auto;
 }
@@ -21,6 +21,9 @@ body {
 }
 #content {
     padding: 10px;
+    font-style: italic;
+    padding-right: 250px;
+    padding-left: 280px;
 }
 #nav {
     width: 180px;
@@ -42,4 +45,9 @@ body {
     padding: 10px;
     background-color: #999;
     text-align: right;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 150px;
 }
