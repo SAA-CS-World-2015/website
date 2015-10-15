@@ -1,0 +1,16 @@
+
+
+
+#nav {
+    width: 180px;
+    float: left;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav .selected {
+    font-weight: bold;
+}
