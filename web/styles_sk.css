@@ -1,10 +1,19 @@
-#body{
-    background-color: #FFF87D;
+body{
+    background-color: #F2F5A9;
+    text-decoration:none helvetica, cursive;
+ }
+:link{
+    text-decoration: none;
+    list-style: none;
+} 
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    float: right;
+    padding: 0;
+    overflow: hidden
+    text-a : right;
+    text-transform: uppercase;
 }
-#nav{
-    color:black;
-    text-align: right;
-    font-family:inherit
-    font-size: 20px;
-}
-#
+#condtainer{
+    de
