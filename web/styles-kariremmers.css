@@ -16,18 +16,18 @@ a {
 }
 #header {
     background-color: #ffffff;
-    width: 500px;
+    width: 1000px;
     padding: 10px;
-    float: inherit;
+    float: left;
     color: red;
     font-family: impact, fantasy;
     font-size: 50;
 }
 #hmenu li {
     background-color: #ffffff;
-    width: 500px;
+    width: 200px;
     padding: 10px;
-    float: inherit;
+    float: left;
     color: red;
     font-family: raleway, sans-serif;
     font-size: 40; 
