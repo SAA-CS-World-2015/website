@@ -5,15 +5,9 @@
 
 a {
     text-decoration: none;
-    color: red;
-    
+    color: red;   
 }
-#container {
-    background-color: #ffeef0;
-    width: 1000px;
-    margin: 10;
-    
-}
+
 #header {
     background-color: #ffffff;
     width: 1000px;
@@ -23,6 +17,13 @@ a {
     font-family: impact, fantasy;
     font-size: 50;
 }
+
+#container {
+    background-color: #ffeef0;
+    width: 1000px;
+    margin: 10;  
+}
+
 #hmenu li {
     background-color: #ffffff;
     width: 200px;
@@ -31,4 +32,9 @@ a {
     color: red;
     font-family: raleway, sans-serif;
     font-size: 40; 
+}
+
+#image-home {
+    width: 500px;
+    padding: 10px;
 }
