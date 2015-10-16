@@ -15,16 +15,6 @@ body {
     margin-right: -550
 }
 #content {
-    background-color: gray;
-    padding: 10px;
-    margin-top: 200px
-}
-#info {
-    background-color: gray;
-        margin-left: 550px;
-    margin-right: 550;
-}
-#content {
     padding: 10px;
     font-style: italic;
     padding-right: 250px;
@@ -53,10 +43,8 @@ body {
     padding-top: 1px;
     position: fixed;
     bottom: 0;
-    width: 99%;
+    width: 100%;
 }
 #logo {
     float: right;
-    margin-right: 15;
-    margin-bottom: 10;
 }
