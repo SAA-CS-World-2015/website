@@ -1,17 +1,12 @@
-#header{
-    background-color: 66CCFF;
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
 }
-
-#container{
-  margin-left: auto;
-    margin-right: auto;
- background-color: azure;
-    width: "800px"
-}
-
+ 
 .nav ul {
   list-style: none;
-  background-color: #444;
+  background-color: teal;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -21,14 +16,14 @@
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #ccc;
 }
  
 .nav a {
   text-decoration: none;
   color: #fff;
   display: block;
-  transition: .3s background-color;
+  transition: .2s background-color;
 }
  
 .nav a:hover {
@@ -49,9 +44,13 @@
     line-height: 50px;
     font-size: 1.4em;
   }
-    
-body {
-  margin: 0;
-  padding: 0;
-  background: #ccc;
-}
+ 
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+.search {
+        float: right;
+        padding: 15px;
+    }
