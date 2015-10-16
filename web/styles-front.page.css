@@ -1,6 +1,25 @@
 #header {
     background-color: 137589;
-    color: 96744f;
+    color: 070707;
     padding: 5px;
-    font-family: serif
+    font-family: serif;
+    border: 3px solid black;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+#nav {
+    list-style-type: none;
+    padding: 5px;
+    background-color: 137589;
+    border: 3px solid black;
+    overflow: hidden;
+}
+#nav li {
+    float: left;
+    padding: 10px;
 }
