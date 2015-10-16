@@ -1,19 +1,38 @@
 body{
-    background-color: #F2F5A9;
+    background-color: #  ;
+;
     text-decoration:none helvetica, cursive;
  }
 :link{
     text-decoration: none;
     list-style: none;
 } 
+#nav {
+    width: 1900px;
+}
+#nav li{
+    float: left; 
+    padding: 10px;
+    color: black;
+    
+}
 #nav ul{
+    background-color: #FFFFFF;
     list-style-type: none;
     margin: 0;
     float: right;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
     text-a : right;
     text-transform: uppercase;
 }
-#condtainer{
-    de
+#logo{
+    width: 30px;
+    float: left;
+}
+#container{
+    clear: both;
+}
+#overview{
+    background-image: url()
+}
