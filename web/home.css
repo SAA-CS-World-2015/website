@@ -10,7 +10,8 @@ a {
 #container {
     background-color: #f86666;
     width: 1000px;
-    margin: 10;  
+    margin: 10;
+    align-content: center;
 }
 
 #header {
