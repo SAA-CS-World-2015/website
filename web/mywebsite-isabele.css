@@ -1,18 +1,19 @@
-Body {
-Background-color: white;
+body{
+background-color: white;
 }
 
-#container {
-Background-color: white;
-Width: 800px;
-Margin: 0 auto;
+#container{
+    background-color: white;
+    width: 800px;
+    margin: auto;
 }
 
-#header {
-Background-color: white
-Color: black
-Padding: 10px
+#header{
+    background-color: white;
+    color: black;
+    padding: 10px;
 }
-#content {
-Padding 10px:
+
+#content{
+    padding: 10px;
 }
