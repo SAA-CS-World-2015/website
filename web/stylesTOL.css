@@ -1,6 +1,19 @@
 
 
 
+
+body {
+    background-image: url(images/BackgroundSky.png)
+}
+
+h1,h2,h3,h4 {
+    font-family: sans-serif;
+}
+
+#header {
+    text-align: center;
+}
+
 #nav {
     width: 180px;
     float: left;
@@ -14,3 +27,85 @@
 #nav .selected {
     font-weight: bold;
 }
+
+#container {
+  background-color: none;
+  width: 800px;
+  margin: 0 auto;
+}
+    
+#homeTree {
+    align-content: center;
+    margin: auto
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    background-color: none;
+    padding: 10px;
+    color: aliceblue
+}
+
+<style type="text/css">
+	#tfheader{
+		background-color: saddlebrown;
+	}
+	#tfnewsearch{
+		float: left;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid saddlebrown; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px saddlebrown; border-right:0px;
+		background: saddlebrown;
+		background: -webkit-gradient(linear, left top, left bottom, from(#be611e), to(#8b5839));
+		background: -moz-linear-gradient(top,  saddlebrown,  saddlebrown);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: saddlebrown;
+		background: -webkit-gradient(linear, left top, left bottom, from(saddlebrown), to(saddlebrown));
+		background: -moz-linear-gradient(top,  saddlebrown,  saddlebrown);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+</style>
+</head>
+<body>
+
+#homemission {
+    text-align: justify;
+    float: right;
+    width: 15px;
+    height: 50px;
+    border-color: #60e660;
+    border-bottom-style: solid;
+    background-color: none;
+    color: #ffffff;    
+}
+
