@@ -17,7 +17,7 @@ a {
 }
 
 #container {
-    background-color: #fc00fc;
+    background-color: #f4f471;
     width: 1000px;
     margin: 0 auto;
 }
@@ -31,7 +31,6 @@ a {
     width: 200px;
     padding: 10px;
     float: left;
-    color: red;
     font-family: raleway, sans-serif;
     font-size: 20; 
 }
@@ -43,19 +42,19 @@ a {
     float: left;
 }
 #article {
-    background-color: #fc00fc;
+    background-color: #f4f471;
     width: 260px;
     height: 500px;
     padding: 10px;
     float: right;
-    color: white;
+    color: #000000;
     font-family: philosopher, sans-serif;
     font-size: 15;
 }
 #footer {
-    background-color: #fc00fc;
+    background-color: #f4f471;
     width: 1000px;
     padding: 10px;
     margin: 0 auto;
-    color: white;
+    color: #000000;
 }
