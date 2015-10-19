@@ -1,7 +1,5 @@
 body{
-    background-color: #  ;
-;
-    text-decoration:none helvetica, cursive;
+   text-decoration:none, helvetica, cursive;
  }
 :link{
     text-decoration: none;
@@ -17,7 +15,6 @@ body{
     
 }
 #nav ul{
-    background-color: #FFFFFF;
     list-style-type: none;
     margin: 0;
     float: right;
@@ -27,14 +24,36 @@ body{
     text-transform: uppercase;
 }
 #logo{
-    width: 30px;
+    width: 50px;
     float: left;
-    padding: 35 px;
+    padding: 20px;
 }
-#container{
-    clear: both;
+#firstoverveiw{
+    background-color: #FFFFE0;  
+    width:1880px;
+    height: 945px;
 }
-#overview{
-    background-image: url(https://gm1.ggpht.com/XZOFgb8qMdS7Lt3I45s6-yg8Mg_zPDYuStlR2fV5Lc8XCtPOw-lmjB-XJTdyAEnQDtwJKRB7NguaQEOP3kK7b98aTckGff-h7RRLd7XzhlhnBJPlptYyrjolfD0AKHYlGZ-8QMSBKYkraIS5DibQRNY8xjv_NjYTZpKBZ0sMaE6fEteYzg1lV7YPldanPhV_EFZgY9ptB4xip_6U1EkU546kB7YymFq2Cy1LUiNKVl5b8KIFenulETGQcbIXuteWRoFfsfoOvpkxz2Edd--p4PESzcqajn-IHsNYax8qyGd3M79tSuxgKylxFpnt1k6IPSAH7H5Be325Da51KE5d8Ofyj3c4k7bbFdpMVQEOyV_sAVTld3wy-avyMVG8h-ft6_aWcv1GG-dnGz5Z22bRwQMQy_5oPuJU2u4jjtpHb3qwNs_rnzzbo1LmN3n-i7zHmROJdqfItunBjGF02yQjegNGgmbsVemTZ6rCIHtUovqqZ4raQdI6dlyg1uTWt4PIz4xSCT5CsRZUnZLbKaHurjnuNO_LboITVe3EZ_nrOvNCObhuSaQoteXg-I0yHq-P-bSfvaC1r6zW8UVTY3yj7wd2lRxFnGDrQGuS9Xkrfl7_CQEDeU06Hlirs_NfYcfFZqjZE62fZYmC8n6utU_lb3T9sVUxe51ILMM5-I2kD5X0MgJ6=w913-h498-l75-ft);
-        padding; 20px;
+#secondoverveiw{
+    background-color: #FFFFB2;
+    width: 1880px;
+    height: 750px;
+}
+#thirdoverveiw{
+    background-color: #FFFF85;
+    width: 1880px;
+    height: 600px;
+}
+#fourthoverview{
+    background-color: #FFFF75;
+    width: 1880px;
+    height: 500px;
+}
+#fifthoverview{
+    background-color: #FFFF66;
+    width: 1880px;
+    height: 400px;
+}
+#sixthoverveiw{
+    background-color: #E6E65C;
+    width: 
 }
