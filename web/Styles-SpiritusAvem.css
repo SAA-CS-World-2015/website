@@ -1,24 +1,24 @@
 body {
-    background-color: #eee; 
+    background-color:#F0F8FF; 
     font-family: helvetica, sans-serif
 }
 
 a {
 text-decoration: none;
-    color: red;
+    color: dodgerblue;
 }
 h1,h2,h3 }
 margin: 0;
 }
 
 #container {
-    background-color: white; 
+    background-color: lightgrey; 
     width: 800px;
     margin: 0 auto;
    }
 
 #header  {
-background-color: #66ccff;
+background-color: #0000CD;
 color: white;
 padding:10px 50px;
 }
@@ -43,7 +43,7 @@ float: right;
 #footer {
     clear: both;
     padding: 10px:
-        background-color: #999;
+        background-color: #808080 ;
     text-align: right
 }
 
