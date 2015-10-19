@@ -1,10 +1,14 @@
 body {
     background-color: #eee;
+    font-family: helventica, sans-serif
 }
 
 a {
     text-decoration: none;
     color: red;
+}
+h1, h2, h3 {
+    margin: 0;
 }
 
 #header {
@@ -29,7 +33,8 @@ a {
     font-weight: bold;
 }
 #nav ul {
-    
+    list-style-type: none;
+    padding: 0;
 }
 
 #article {
@@ -39,5 +44,7 @@ a {
 #footer {
     clear: both;
     padding: 10px;
+    background-color: #999;
+    text-align: right;
 }
 
