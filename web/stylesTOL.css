@@ -1,5 +1,29 @@
+body {
+    background-color: #eee;
+    font-family: sans-serif, helvetica;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+#header {
+    float: left;
+    width: 80;
+    height: 80;
+    padding: 10px;
+}
+
+#container {
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+}
 
 
 body {
@@ -17,6 +41,7 @@ h1,h2,h3,h4 {
 #nav {
     width: 180px;
     float: left;
+    clear: left;
 }
 
 #nav ul {
@@ -28,6 +53,7 @@ h1,h2,h3,h4 {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 #container {
   background-color: none;
   width: 800px;
@@ -108,4 +134,4 @@ h1,h2,h3,h4 {
     background-color: none;
     color: #ffffff;    
 }
-
+>>>>>>> origin/Nathan's-Website
