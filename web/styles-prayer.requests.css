@@ -36,7 +36,8 @@ a {
     font-size: 12px;
 }
 #article p {
-    font-size: 20px;
-    font-family: serif; 
-    font-weight: bold;
+    font-size: 16px;
+    font-family: serif;
+    border-style:ridge;
+    background-color: darkgrey;
 }
