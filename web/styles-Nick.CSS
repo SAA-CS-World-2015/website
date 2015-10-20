@@ -5,21 +5,21 @@ body {
 
 a {
    text-decoration: underline
-    color: red;
+    color: blue;
 }
 h1, h2, h3 {
     margin: 0;
 }
 
 #container {
-    background-color: purple; 
+    background-color: orange; 
     width: 800px;
     margin: 0 auto;
 }
 
 #header {
     background-color: #66ccff;
-    color: white;
+    color: black;
     padding: 10px;
 }
 #content {
