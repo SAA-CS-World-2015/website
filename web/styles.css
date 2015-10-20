@@ -43,18 +43,24 @@ body {
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
-  }
+}
  
   .nav li {
     display: inline-block;
     margin-right: -4px;
-  }
+}
  
 .search {
         float: right;
         padding: 15px;
-    }
+}
 
 #footer {
-    
-    }
+    margin-left: 200;
+    margin-right: 200;
+        text-align: center
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
