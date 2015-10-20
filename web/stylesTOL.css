@@ -13,7 +13,7 @@ h1,h2,h3,h4 {
 }
 
 #header {
-    float: left;
+    float: center;
     width: 80;
     height: 80;
     padding: 10px;
