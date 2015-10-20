@@ -23,7 +23,7 @@ a {
 }
 
 #content {
-    height: 600px;
+    height: 400px;
 }
 
 #hmenu li {
@@ -35,16 +35,14 @@ a {
     font-size: 20; 
 }
 
-#image-home {
-    width: 700px;
-    height: 500px; 
+#image-home { 
     padding: 10px;
     float: left;
 }
 #article {
     background-color: #f4f471;
     width: 260px;
-    height: 500px;
+    height: 300px;
     padding: 10px;
     float: right;
     color: #000000;
