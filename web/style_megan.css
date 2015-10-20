@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: white;
     font-family: helventica, sans-serif
 }
 
@@ -13,20 +13,12 @@ h1 {
 }
 
 #header {
-    background-color: #fff;
+    background-color: white;
     color: black; 
     padding: 10px;
-    }
-
-#nav {
-    width: 180px;
-    float: right;
-}
-#nav .selected {
-    font-weight: bold;
-}
-#nav ul {
-    list-style-type: none;
-    padding: 0;
 }
 
+p {
+    font-family: cursive;
+    float: inherit;
+}
