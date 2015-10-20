@@ -1,14 +1,54 @@
-#body {
-    background-color: #b0c4de;
+
+body{
+    background-color: #eee;
+    font-family: helvetia, sans-serif;
 }
 
-#ul {
+a {
+    text-decoration: none;
+    color: black;
+}
+h1, h2, h3 {
+    margin: 0;   
+}
+
+#header {
+    background-color: aa55bb;
+    color: whitesmoke;
+    padding: 7px;
+}
+
+#container {
+    background-color: white;
+    width: 800px;
+   
+}
+#content {
+    padding: 10px;
+}
+#nav {
+   width: 390px; 
+    float: right;
+}
+#nav .selected {
+    font-weight: bolder;
+}
+#nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
-
-li {
+#nav li {
     float: left;
+    padding: 14;
 }
 
+#article {
+    width: 600px;
+    float: right;
+}
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999;
+    text-align: right;     
+}
