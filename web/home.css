@@ -23,7 +23,7 @@ a {
 }
 
 #content {
-    height: 400px;
+    height: 800px;
 }
 
 #hmenu li {
@@ -39,15 +39,21 @@ a {
     padding: 10px;
     float: left;
 }
+
+#image-home2 {
+    padding: 10px;
+    float: left;
+}
+
 #article {
     background-color: #f4f471;
     width: 260px;
-    height: 300px;
+    height: 500px;
     padding: 10px;
     float: right;
     color: #000000;
     font-family: philosopher, sans-serif;
-    font-size: 15;
+    font-size: 20;
 }
 #footer {
     background-color: #f4f471;
