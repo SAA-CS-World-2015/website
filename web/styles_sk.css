@@ -1,9 +1,11 @@
 body{
    text-decoration:none, helvetica, cursive;
  }
-:link{
-    text-decoration: none;
+link{
+    text-align: center;
     list-style: none;
+    color: black;
+    
 } 
 #nav {
     width: 1900px;
@@ -11,12 +13,11 @@ body{
 #nav li{
     float: left; 
     padding: 10px;
-    color: black;
-    
+    color: black ;
 }
 #nav ul{
     list-style-type: none;
-    margin: 0;
+    margin: right;
     float: right;
     padding: 20;
     overflow: hidden;
@@ -25,50 +26,52 @@ body{
     font-size: 20px;
     font-family: fantasy;
     font-feature-settings: normal;
-    color: blue;
+    color: black;
 }
 #logo{
     width: 50px;
     float: left;
     padding: 60px;
-    font-family: fantasy;
-    font-size: 20px;
-    color: blue;
+    background-image: url(Capture.JPG); 
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #firstoverveiw{
-    background-color: #B2B200;     
-    width:1895px;
-    height: 1060px;
+    align-self: baseline;
+    position: fixed;
+    background-image: url( matt5_14.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width:1700px;
+    height: 995px;
 }
 #secondoverveiw{
-    background-color: #CCCC00;  
-    width: 1895px;
-    height: 860px;     
+    background-size: contain;
+    width: 1700px;
+    height: 860px; 
+    margin: 0 auto;
 }
 #thirdoverveiw{
-    background-color: #E6E65C; 
-    width: 1895px;
+    width: 1700px;
     height: 660px;
 }
 #fourthoverview{
-    background-color: #FFFF66;  
-    width: 1895px;
+    width: 1700px;
     height: 460px;
 }
-#fifthoverview{
-    background-color: #FFFF85; 
-    width: 1895px;
+#fifthoverview{ 
+    width: 1700px;
     height: 260px;
 }
 #sixthoverveiw{
     background-color: #FFFFB2; 
-    width: 1895px;
+    width: 1885px;
     height: 100px;
 }
 #secnav{
     float: right;
     color: blue;
-    padding: 20px;
+    padding: 20px;   
     font-family: fantasy;
     font-size: 20px;
     align-content: right;
@@ -76,11 +79,14 @@ body{
 }
 #p{
   padding: 90px;
-    background-image: 
+   
 }
 #b{
     padding: 90px;
 }
 #s{
-    padding: 90px;
+    padding:90px;
+    background-image:url(bibleopen.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
