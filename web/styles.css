@@ -6,7 +6,7 @@ body {
  
 .nav ul {
   list-style: none;
-  background-color: teal;
+  background-color: powderblue;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -27,7 +27,7 @@ body {
 }
  
 .nav a:hover {
-  background-color: #005f5f;
+  background-color: cadetblue;
 }
  
 .nav a.active {
@@ -43,7 +43,7 @@ body {
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
-}
+  }
  
   .nav li {
     display: inline-block;
@@ -58,9 +58,19 @@ body {
 #footer {
     margin-left: 200;
     margin-right: 200;
-        text-align: center
+    text-align: center;
+    font-family: 'Oswald', sans-serif;        
 }
 
 h2 {
     font-family: 'Oswald', sans-serif;
+}
+
+#premade {
+    display: block
+        
+}
+
+#article {
+      font-family: 'Oswald', sans-serif;
 }
