@@ -25,7 +25,6 @@ background-color: white;
     margin-right: auto;
     margin: 0 auto;   
 } 
-
 #CONTENT {
     PADDING: 10PX;
 }  
@@ -47,6 +46,9 @@ background-color: white;
 #nav ul {
     list-style-type: none; 
     padding: 0;
+}
+#header2 { 
+    padding-left: 
 }
     
 #article {
