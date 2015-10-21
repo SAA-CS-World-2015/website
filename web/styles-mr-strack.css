@@ -17,6 +17,9 @@ h1, h2, h3 {
     height: auto;
     margin: 0 auto;   
 }
+#container2 {
+    float: right;
+}
 #header {
     background-color: rgb(25%, 25%, 25%);
     padding: none;
@@ -30,6 +33,11 @@ h1, h2, h3 {
 }
 #content {
     padding: 10px ;
+}
+#article2 {
+    float: right;
+    max-width: 150;
+    height: auto;
 }
 #nav {
     width: clear;
@@ -52,9 +60,10 @@ h1, h2, h3 {
     padding: 8px; 
 }
 #article {
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
     font-family: 'Rockwell';
+    float: center;
 }
 #footer {
   clear: both;
