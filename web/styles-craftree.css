@@ -1,26 +1,28 @@
 
 body{
     background-color: #eee;
-    font-family: helvetia, sans-serif;
+    font-family: fantasy;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: darkslategrey;
+    font-family: serif;
 }
 h1, h2, h3 {
     margin: 0;   
 }
 
-#header {
-    background-color: aa55bb;
+#header {background-color: cccccc;
     color: whitesmoke;
-    padding: 7px;
-}
+    padding: 7px;}
 
 #container {
-    background-color: white;
-    width: 800px;
+    background-color: bdffc2;
+    width: 880px;
+    margin: 0 auto;
+    height: 600px;
+    
    
 }
 #content {
@@ -32,6 +34,7 @@ h1, h2, h3 {
 }
 #nav .selected {
     font-weight: bolder;
+    color: 006600
 }
 #nav ul {
     list-style-type: none;
@@ -40,6 +43,7 @@ h1, h2, h3 {
 #nav li {
     float: left;
     padding: 14;
+    color: 33cc33
 }
 
 #article {
