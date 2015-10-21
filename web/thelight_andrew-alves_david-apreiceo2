@@ -1,0 +1,24 @@
+<html>
+  <head>
+      <title>Recipe Site</title>
+      <link rel="stylesheet" type="text/css" href="styles-andrew_alves_home.css"> 
+  </head>
+    <meta content="taxt/html; charset=utf-8" http-equiv="content-type">
+    <title>Traditonal Left Nav</title>
+    <style>
+        #LeftNav {
+            border-right: 1px grey dashed;
+            width: 9.5em;
+            margin-left: -2em;
+        }
+        #LeftNav ul {
+            list-style: none;
+        }
+        #LeftNav ul ul li {
+            margin-left: -1.5em;
+        }
+    </style>
+  <body>
+
+  </body>
+</html>
