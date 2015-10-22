@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>SpiritusAvem.com</title>
+      <link rel="stylesheet" type="text/css" href="styles-AlexHess.css">
+  </head>
+  <body>
+    <div id="container"> 
+        <div id="header">
+        <p>Logo</p>
+        </div>
+        <div id="content">
+        <div id="nav">
+            <h2>Recipe's</h2>
+            <ul>
+                <li><a class="selected" href="home.html">Home</a></li>
+              <li><a href="cherry.html">Cherry Cheescake</a></li>
+                <li><a href="peach.html">Peach Cobbler</a></li>
+                <li><a href="blueberry.html">Blueberry Pie</a></li>
+            </ul>
+                     </div>
+             <div id="article">
+                    <h2>Recipe of the Day!</h2>
+            <h3>Cherry Cheesecake Recipe</h3>
+            <ol>
+              <li>1/2 cup of cream cheese</li>
+              <li>1 cup of <a href="http://www.amazon.com/Domino-Sugar-Granulated-4LB-Canister/dp/B00HJCXX24/ref=sr_1_1?rps=1&ie=UTF8&qid=1442496930&sr=8-1&keywords=sugar" target="_blank">sugar</a></li>
+              <li>1 bucket of cherries</li>
+              <li>2 cups of grahm crackers</li>
+              <li>1 qt of oil</li>
+            </ol>
+            </div>
+                <div id="footer">
+                <p> Copyright &copy; Alexander Hess</p>
+                </div>
+           
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body{
+ background-color: #eee;   
+}
+
+#container {
+background-color: white;
+ whith: 800px;
+margin: 0 auto;
+    }
+
+#header{
+    background-color: #66ccff;
+    color:white;
+    painting: 10xp
+}
+#container{
+    padding: 10px;
+}
+#nav {
+   width: 180px; 
+    float: left;
+}
+#article {
+    width: 600px;
+    float: right;
+}
+#footer {    
+   clear: both;
+    padding: 10px
+}
+    
+
+    
