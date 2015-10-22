@@ -13,9 +13,9 @@ h1,h2,h3,h4 {
 }
 
 #header {
+    text-align: center;
     float: center;
-    width: 80;
-    height: 80;
+    height: 30;
     padding: 10px;
 }
 
@@ -70,16 +70,22 @@ h1,h2,h3,h4 {
     text-align: center;
     background-color: none;
     padding: 10px;
-    color: aliceblue
+    color: #000000;
 }
 
 <style type="text/css">
 	#tfheader{
 		background-color: saddlebrown;
+        align-content: center;
+        clear: both;
+        margin: 0 auto;
+        padding: 10px
 	}
 	#tfnewsearch{
-		float: left;
-		padding:20px;
+        clear: both;
+        align-content: center;
+        margin: auto;
+		padding: 20px;
 	}
 	.tftextinput{
 		margin: 0;
@@ -132,6 +138,7 @@ h1,h2,h3,h4 {
     border-color: #60e660;
     border-bottom-style: solid;
     background-color: none;
-    color: #ffffff;    
+    color: #ffffff;
+    text-decoration-color: aquamarine;
 }
 >>>>>>> origin/Nathan's-Website
