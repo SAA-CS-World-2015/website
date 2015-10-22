@@ -11,7 +11,7 @@ link{
     width: 1900px;
 }
 #nav li{
-    float: left; 
+    float: right; 
     padding: 10px;
     color: black ;
 }
@@ -37,49 +37,50 @@ link{
     background-repeat: no-repeat;
 }
 #firstoverveiw{
-    align-self: baseline;
+    align-content: center;
     position: fixed;
-    background-image: url( matt5_14.jpg);
+    image: url( matt5_14.jpg);
     background-size: contain; 
     background-repeat: no-repeat;
-    width:1700px;
+    width:1000px;
     height: 995px;
+}
+#secondoverveiw img{
+    max-width: 100%;
 }
 #secondoverveiw{
     background-size: contain;
-    width: 1700px;
+    width: 1000px;
     height: 860px; 
     margin: 0 auto;
 }
 #thirdoverveiw{
-    width: 1700px;
+    width: 1000px;
     height: 660px;
 }
 #fourthoverview{
-    width: 1700px;
+    width: 1000px;
     height: 460px;
 }
 #fifthoverview{ 
-    width: 1700px;
+    width: 1000px;
     height: 260px;
 }
 #sixthoverveiw{
     background-color: #FFFFB2; 
     width: 1885px;
-    height: 100px;
+    height:90px;
 }
 #secnav{
     float: right;
     color: blue;
-    padding: 20px;   
+    padding: 40px;   
     font-family: fantasy;
     font-size: 20px;
-    align-content: right;
-    
+    height: px;
 }
 #p{
-  padding: 90px;
-   
+    padding: 90px;
 }
 #b{
     padding: 90px;
@@ -90,3 +91,7 @@ link{
     background-size: contain;
     background-repeat: no-repeat;
 }
+#container{
+  
+}
+    
