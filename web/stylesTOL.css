@@ -15,12 +15,11 @@ h1,h2,h3,h4 {
 #header {
     text-align: center;
     float: center;
-    height: 30;
     padding: 10px;
 }
 
 #container {
-    background-color: white;
+    background-color: none;
     width: 800px;
     margin: 0 auto;
 }
@@ -39,7 +38,11 @@ h1,h2,h3,h4 {
 }
 
 #nav {
-    width: 180px;
+    align-content: center;
+    border-width: 10px;
+    border-color: #22db00;
+    width: 180;
+    height: 400;
     float: left;
     clear: left;
 }
@@ -53,7 +56,6 @@ h1,h2,h3,h4 {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 #container {
   background-color: none;
   width: 800px;
@@ -63,6 +65,17 @@ h1,h2,h3,h4 {
 #homeTree {
     align-content: center;
     margin: auto
+}
+
+#homemission {
+    text-align: justify;
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-color: #60e660;
+    border-bottom-style: solid;
+    background-color: none;
+    color: #ffffff;    
 }
 
 #footer {
@@ -129,16 +142,3 @@ h1,h2,h3,h4 {
 </style>
 </head>
 <body>
-
-#homemission {
-    text-align: justify;
-    float: right;
-    width: 15px;
-    height: 50px;
-    border-color: #60e660;
-    border-bottom-style: solid;
-    background-color: none;
-    color: #ffffff;
-    text-decoration-color: aquamarine;
-}
->>>>>>> origin/Nathan's-Website
