@@ -38,7 +38,7 @@ body {
  
 @media screen and (min-width: 600px) {
   .nav li {
-    width: 300px;
+    width: 120px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
@@ -51,8 +51,8 @@ body {
 }
  
 .search {
-        float: right;
-        padding: 15px;
+    float: right;
+    padding: 15px;
 }
 
 #footer {
@@ -83,3 +83,4 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
