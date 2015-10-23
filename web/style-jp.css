@@ -29,25 +29,25 @@ h4 {
     padding: 10px;
 }
 #left-sidebar {
-  width: 19px;  
+  width: 190px;  
   float: left;
     clear: left;
-    padding-top: 100px
+    padding-top: 10px;
         
     
     
 }
 #nav li{
     float:left;
-    padding: 10
+    padding: 10;
 }
 .button{
     padding: 5px;
     background-color: red;
     color: white;
-    width:145px;
+    width:150px;
     display: inline-block;
-    text-align: center
+    text-align: center;
 }
 #nav .selected {
     font-weight: bold;
@@ -58,11 +58,15 @@ h4 {
     font-family: 
     
 }
+#nav .button{
+    margin: 10px
+}
 
 #article {
-    width: 600px;
+    width: 590px;
     float: left;
-    text-align:center
+    text-align:center;
+    margin-top: 100px;
     
 }
 #footer {
