@@ -18,7 +18,7 @@ h1, h2, h3 {
     height: 50px;
 }
 #container {
-    background-color: d6ebd6;
+    background-color: f2f7fc;
     width: 1100px;
     margin: 0 auto;
     height: 600px;
@@ -50,10 +50,22 @@ h1, h2, h3 {
 }
 #footer {
     clear: both;
-    background-color: d1d1d1;
+    background-color: d6ebd6;
     text-align: right;  
     width: 1100;
     float: right;
+    height: 45px;
 }
-#sidebar2 {width: 100; float: left; height: 535px; background-color: d1d1d1}
-#sidebar1 {width: 86; float: left; height: 50px; padding: 7px; background-color: crimson}
+#sidebar2 {
+    width: 100; 
+    float: left; 
+    height: 580px; 
+    background-color: d1d1d1
+}
+#sidebar1 {
+    width: 86; 
+    float: left; 
+    height: 50px; 
+    padding: 7px; 
+    background-color: cf6b05
+}
