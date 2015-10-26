@@ -1,5 +1,11 @@
 body {
     text-align: center;
+    padding: 100px;
+    border: 100px solid;
+    padding-top: 40px;
+    border-top: 40px solid;
+    border-bottom: 40px solid;
+    border-color: 6198a3;
 }
 #header {
     background-color: 137589;
@@ -37,3 +43,14 @@ a {
     padding-bottom: 0px;
     font-size: 12px;
 }
+div.container2 {
+    height: 10em;
+    position: relative }
+div.container2 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
