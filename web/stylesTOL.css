@@ -1,6 +1,7 @@
 body {
     background-color: #eee;
     font-family: sans-serif, helvetica;
+    background-image: url(images/BackgroundSky.png);
 }
 
 a {
@@ -24,9 +25,10 @@ h1,h2,h3,h4 {
     margin: 0 auto;
 }
 
-
-body {
-    background-image: url(images/BackgroundSky.png)
+.tree {
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 h1,h2,h3,h4 {
@@ -41,10 +43,12 @@ h1,h2,h3,h4 {
     align-content: center;
     border-width: 10px;
     border-color: #22db00;
-    width: 180;
-    height: 400;
+    background-color: #55b548;
+    background-blend-mode: color-dodge;
+    background-image: linear-gradient (to top, green 0%, none 90%);
+    width: 120px;
+    height: 400px;
     float: left;
-    clear: left;
 }
 
 #nav ul {
@@ -64,39 +68,38 @@ h1,h2,h3,h4 {
     
 #homeTree {
     align-content: center;
-    margin: auto
+    width: 400px;
+    float: left;
 }
 
 #homemission {
     text-align: justify;
-    float: right;
+    float: left;
     width: 200px;
     height: 200px;
     border-color: #60e660;
     border-bottom-style: solid;
-    background-color: none;
+    background-color: #38c932;
     color: #ffffff;    
 }
 
 #footer {
-    clear: both;
     text-align: center;
     background-color: none;
     padding: 10px;
     color: #000000;
+    clear: both;
 }
 
 <style type="text/css">
 	#tfheader{
 		background-color: saddlebrown;
         align-content: center;
-        clear: both;
         margin: 0 auto;
-        padding: 10px
+        padding: 10px;
 	}
 	#tfnewsearch{
-        clear: both;
-        align-content: center;
+        position: relative;
         margin: auto;
 		padding: 20px;
 	}
