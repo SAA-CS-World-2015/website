@@ -11,6 +11,11 @@ body {
     background-color: #66ccff;
     color: white;
     clear: both;
+     border-style: ridge;
+    border-bottom-color: gold;
+    border-top-color: gold;
+    border-right-color: gold;
+    border-left-color: gold;
     padding-bottom: 0px;
     padding-top: 15px;
     padding-right: 10px;
@@ -24,41 +29,59 @@ body {
     width: 600px;
 }
 #content {
-    background-color: gray;
+    background-color: grey;
     padding: 10px;
     margin-top: 200px;
+     border-style: ridge;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
 }
 #about {
     background-color: gray;
+    margin-top: 20px;
     margin-left: 550px;
     margin-right: 550;
+    padding-top: 2;
+    padding-bottom: 1px;
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
+     border-style: ridge;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
 }
 #line {
-     background-color: gray;
+    background-color: black;
+    margin-top: 1px;
     margin-left: 550px;
     margin-right: 550;
     padding-left: 100px;
     padding-right: 100px;
-    text-align: center;
-    text
+    text-align: left;
+    color: gold;
 }
 #info {
-       background-color: gray;
+    background-color: gray;
+    margin-top: 1px;
     margin-left: 550px;
     margin-right: 550;
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
-    
+     border-style: ridge;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
 }
 #content {
     padding: 10px;
     font-style: italic;
-    padding-right: 250px;
-    padding-left: 280px;
+    text-align: center
 }
 #nav {
     width: 180px;
@@ -94,12 +117,23 @@ body {
 .button {
     padding: 5px;
     background-color: gold;
+    color: white;
+     border-style: double;
+    border-bottom-color: darkgoldenrod;
+    border-right-color: darkgoldenrod;
+    border-left-color: darkgoldenrod;
+    border-top-color: darkgoldenrod;
 }
 .button2 {
     padding: 5PX;
     background-color: gold;
+    color: white;
     margin-left: 10px;
-    
+     border-style: double;
+    border-bottom-color: darkgoldenrod;
+    border-right-color: darkgoldenrod;
+    border-left-color: darkgoldenrod;
+    border-top-color: darkgoldenrod;
 }
 #copyright {
     float: left;
