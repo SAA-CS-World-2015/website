@@ -59,6 +59,27 @@ a:hover {
     font-family: philosopher, sans-serif;
     font-size: 20;
 }
+
+#article2 h2 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: Quicksand, sans-serif;
+    font-size: 30;
+    text-align: center;
+    clear: both;
+}
+
+#article2 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: Quicksand, sans-serif;
+    font-size: 20;
+    text-align: center;
+    clear: both;
+}
+
 #footer {
     background-color: #a70000;
     width: 1000px;
