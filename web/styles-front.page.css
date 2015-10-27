@@ -13,6 +13,10 @@ body {
     padding: 5px;
     font-family: serif;
     border: 3px solid black;
+    margin: 0;
+   position: absolute;               
+   top: 24%;                       
+   transform: translate(45%, -50%)
 }
 a {
     text-decoration: none;
@@ -26,7 +30,7 @@ a {
     padding: 5px;
     overflow: hidden;
     width: 200px;
-    margin: 0 auto;
+    margin: 0 auto;  
 }
 #nav li {
     float: left;
@@ -35,6 +39,10 @@ a {
 #nav-wrapper {
     background-color: 137589;
     border: 3px solid black;
+    margin: 0;
+   position: absolute;               
+   top: 24%;                       
+   transform: translate(53%, 83%)
 }
 #footer {
     padding: 50px;
@@ -45,7 +53,8 @@ a {
 }
 div.container2 {
     height: 10em;
-    position: relative }
+    position: relative 
+}
 div.container2 p {
     margin: 0;
     background: yellow;
@@ -53,4 +62,11 @@ div.container2 p {
     top: 100%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 230px;
+    top: 158px;
+    z-index: -1
+}
+#article {
+}
