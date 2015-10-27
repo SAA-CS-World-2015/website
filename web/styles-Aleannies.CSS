@@ -1,18 +1,30 @@
 body {
-    background-color: #eee;
+    background-color: to;
 }
 
 #container {
-    background-color: white;
-        width: 800px;
-        margin-left: 0 auto;  
+    bacground-color: white;
+    width: 800px;
+    margin: o auto;
 }
 
 #header {
-    Background-color: #66ccff;
-    color; white;
+    background-color: #66ccff;
+    color: white;
     padding: 10px;
 }
-#content {
+#content { 
+    padding: 10px;
+}
+#nav {
+    width: 180px; 
+    float: left;
+}
+#article {
+    width: 600px;
+    float: right;
+}
+#footer {
+    clear: both;
     padding: 10px;
 }
