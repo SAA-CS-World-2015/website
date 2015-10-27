@@ -1,5 +1,5 @@
 body {
-    background-color: #5ef2b9; 
+    background-color: #aff7da; 
  font-family: helvelica, sans-serif; 
 }
 
@@ -13,7 +13,7 @@ h1, h2, h3{
 #header {
 background-color: white;
     font-size: 20;
-    color: rgb(43, 206, 143);
+    color: rgb(43, 198, 138);
     padding-left: 10px;
     overflow: hidden;
 } 
@@ -48,12 +48,18 @@ background-color: white;
     padding: 0;
 }
 #header2 { 
-    padding-left: 
+    padding-top: 45px;
+    font-size: 25;
+    font-family:serif; 
 }
     
 #article {
     width: 600px; 
     Float: right;
+
+}
+#article1 { 
+    padding-top: 70px; 
 }
 #footer {
     clear: both; 
