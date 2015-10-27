@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Recipe Site</title>
+        <link rel="stylesheet"
+    type="text/css" href="styles-MichaelRackley.css"
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+            </div>
+                <p>Logo</p>
+            </div>
+            <div id="content">
+                <div id="nav"></div>
+                <div id="article"></div>
+            </div>
+            <div id="footer">
+                    <p> Footer</p>
+            </div>
+    </body>
+</html>
