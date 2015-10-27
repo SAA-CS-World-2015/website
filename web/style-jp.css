@@ -62,10 +62,9 @@ h4 {
   float: left;
     clear: left;
     padding-top: 75px;
-    
-        
-    
-    
+}
+#left-sidebar .button {
+    width: 175px;
 }
 #nav li{
     float:left;
