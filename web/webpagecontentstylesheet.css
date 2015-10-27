@@ -1,0 +1,7 @@
+#header {background-color: #d3d3d3; padding: 5px 10px; width: 630; float: right; color: #b90505}
+#container {background-color: #ffffff; width: 800; margin: 0 auto}
+#content {padding: 10;}
+#footer {width: 630; float: right; background-color: #d3d3d3;padding: 0px 10px;}
+#nav {width: 130px; background-color: #b90505; padding: 20px 10px; height: 895; float: left; color: #1bcc36}
+#article {width: 610px; height: 755; padding: 20px 20px; float: right; background-color: #eeeeee;}
+body {background-color: #533353}
