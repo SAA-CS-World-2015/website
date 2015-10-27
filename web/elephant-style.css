@@ -1,0 +1,37 @@
+body {
+    background-color: #eee;
+}
+#header {
+    background-color: darkcyan;
+    color: ivory;
+    padding: 10px 20px;
+}
+#container {
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+#nav {
+    
+    width: 180px;
+    float: left;
+    background-color: lightcyan;
+    height: 568px;
+    padding: 10px;
+    color: 
+
+}
+#article {
+    width: 580px;
+    float: left;
+    padding: 10px;
+    background-color: white;
+}
+#footer {
+    padding: 20px;
+    text-align: right;
+    background-color: darkcyan;
+    color: ivory;
+}
