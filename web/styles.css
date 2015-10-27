@@ -51,8 +51,8 @@ body {
 }
  
 .search {
-    float: right;
-    padding: 15px;
+    display: inline-block;
+    margin-left: 838px
 }
 
 #footer {
