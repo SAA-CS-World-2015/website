@@ -5,10 +5,9 @@ link{
     text-align: center;
     list-style: none;
     color: black;
-    
 } 
 #nav {
-    width: 1900px;
+    width: 1000px;
 }
 #nav li{
     float: right; 
@@ -18,7 +17,6 @@ link{
 #nav ul{
     list-style-type: none;
     margin: left;
-    float: left;
     padding: 20;
     overflow: hidden;
     text-a : right;
@@ -29,49 +27,14 @@ link{
     color: black;
 }
 #logo{
-    width: 50px;
+    width: 5px;
     float: left;
     padding: 60px;
     background-image: url(Capture.JPG); 
     background-size: contain;
     background-repeat: no-repeat;
 }
-#firstoverveiw{
-    align-content: center;
-    position: fixed;
-    image: url( matt5_14.jpg);
-    background-size: contain; 
-    background-repeat: no-repeat;
-    width:1000px;
-    height: 995px;
-}
-#secondoverveiw{
-    background-size: contain;
-    width: 1000px;
-    height: 860px; 
-    margin: 0 auto;
-}
-#fourthoverview{
-    width: 1000px;
-    height: 460px;
-}
-#fifthoverview{ 
-    width: 1000px;
-    height: 260px;
-}
-#sixthoverveiw{
-    background-color: #FFFFB2; 
-    width: 1885px;
-    height:90px;
-}
-#secnav{
-    float: right;
-    color: blue;
-    padding: 40px;   
-    font-family: fantasy;
-    font-size: 20px;
-    height: px;
-}
+
 #p{
     padding: 90px;
 }
@@ -87,4 +50,33 @@ link{
 #container{
   
 }
-    
+#secnav{
+    float: right;
+}
+#css-slideshow{
+   position: relative;
+   max-width: 495px;
+   height: 370px;
+   margin: 5em auto .5em auto;
+}
+#css-slideshow figure{
+   margin: 0;
+   position: absolute;
+}
+#css-slideshow figcaption{
+   position: absolute;
+   top: 0;
+   color: #fff;
+   background: rgba(0,0,0, .3);
+   font-size: .8em;
+   padding: 8px 12px;
+   opacity: 0;
+   transition: opacity .5s;
+}
+#css-slideshow:hover figure figcaption{
+   transition: opacity .5s;
+   opacity: 1;
+}
+#css-slideshow figure{
+   opacity:0;
+}
