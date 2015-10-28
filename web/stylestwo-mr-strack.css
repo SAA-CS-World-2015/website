@@ -1,0 +1,52 @@
+body {
+  background-color: #eee;
+    font-family: 'Rockwell';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+#container {
+    background-color: rgb(25%, 25%, 25%);
+    max-width: 1500px;
+    height: auto;
+    margin: 0 auto;   
+}
+#header {
+    background-color: rgb(25%, 25%, 25%);
+    padding: none;
+    text-align: center;
+}
+#header p {
+    text-decoration: underline;
+    color: black;
+    font-family: 'Rockwell Condensed';
+    font-size: 48;
+}
+#content {
+    padding: 10px ;
+}
+#nav {
+    width: clear;
+    float: middle;
+    display: inline;
+    text-align: center;
+    font-family: 'Rockwell';
+    font-size: 14;
+}
+#nav .selected {
+    font-weight: bold;
+}
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+}
+#nav li{
+    display: inline;
+    padding: 8px; 
+}
