@@ -49,6 +49,12 @@ a:hover {
     float: left;
 }
 
+#image-about {
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
 #article {
     background-color: #a70000;
     width: 260px;
