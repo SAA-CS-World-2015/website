@@ -8,11 +8,13 @@ body {
 }
 #container {
     background-color: lightgray;
-    width: 800px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
 margin: 0 auto;
+    height: 900px;
 }
 #content {
     padding: 10px;
 }
+#nav
