@@ -50,12 +50,6 @@ h1, h2, h3 {
     display: inline;
     padding: 8px; 
 }
-#article {
-    max-width: 400px;
-    margin: 0 auto;
-    font-family: 'Rockwell';
-    float: center;
-}
 #footer {
   clear: both;
     padding: 0;
