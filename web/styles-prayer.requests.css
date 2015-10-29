@@ -1,10 +1,12 @@
 body {
-    padding: 100px;
-    border: 100px solid;
-    padding-top: 40px;
-    border-top: 40px solid;
-    border-bottom: 40px solid;
-    border-color: 6198a3;
+    text-align: center;
+    background-color: 6198a3;
+}
+#container {
+    width: 600px;
+    padding: 60px;
+    background-color: white;
+    margin: 0 auto;
 }
 #header {
     background-color: 137589;
@@ -13,6 +15,7 @@ body {
     font-family: serif;
     border: 3px solid black;
     text-align: center;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -35,6 +38,7 @@ a {
 #nav-wrapper {
     background-color: 137589;
     border: 3px solid black;
+    margin: 0;
 }
 #footer {
     padding: 50px;
@@ -49,3 +53,9 @@ a {
     border-style:ridge;
     background-color: darkgrey;
 }
+.container2 {
+    background-image: url(flowers.jpg);
+    height: 200px;
+    background-size: cover;
+    padding: 40px;
+} 
