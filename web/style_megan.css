@@ -1,11 +1,11 @@
 body {
     background-color: white;
-    font-family: helventica, sans-serif
+    font-family: helventica, sans-serif;
 }
 
 a {
     text-decoration: underline; 
-    color: darkgoldenrod;
+    color: #A78214;
 }
 
 h1 {
@@ -20,5 +20,8 @@ h1 {
 
 p {
     font-family: cursive;
-    float: left;
+    float: middle;
+}
+#footer {
+    float: middle;
 }
