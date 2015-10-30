@@ -69,7 +69,6 @@ h2 {
 
 #premade {
     display: block
-        
 }
 
 #article {
@@ -81,8 +80,6 @@ h2 {
     width: 100px;
     padding: 200px;
     border: 2px solid teal;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #set {
@@ -90,7 +87,6 @@ h2 {
     width: 100px;
     padding: 200px;
     border: 2px solid teal;
-    float: left;
 }    
 
 #animate {
@@ -98,5 +94,16 @@ h2 {
     width: 100px;
     padding: 200px;
     border: 2px solid teal;
-    float: right
 }    
+
+#set, #studio, #animate { 
+    width: 33.3%; 
+}
+
+#set, #animate { 
+    float: left; 
+}
+
+#animate { 
+    float: right; clear: none; 
+}
