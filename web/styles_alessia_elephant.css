@@ -1,49 +1,48 @@
 body {
-    background-color: #aaa;
+    background-color: white;
     font-family: helvetica, sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: red;
 }
 h1, h2, h3 {
     margin: 0;
 }
 #container {
-    background-color: white;
+    background-color: lavender;
     width: 900px;
     margin: 0 auto;
 }
 
 #header {
-    background-color: darkcyan;
-    color: white;
+    background-color: #66d0ff;
+    color: red;
     padding: 13;
     float: right;
-    width: 686;
-    text-align: right;
+    width: 874;
+    text-align: left;
     
 }
 #content {
-
+    text-align: left;
 }
 #nav {
     width: 165px;
     float:none;
     text-align: left;
     height:650;
-    background-color: lightcyan;
+    background-color: lightgray;
     color: #356;
     padding: 10
     
     
 }
 #nav2 {
-    float: left;
-    float: right;
     width: 600;
-    text-align: center
+    float: right;
+    text-align:center;
 }
 #nav .selected {
     font-weight: bolder;
@@ -63,7 +62,7 @@ h1, h2, h3 {
 }
 #footer {
     clear: both;
-    background-color: darkcyan;
+    background-color: #66d0ff;
     color: red;
     text-align: right;
     padding: 10;
@@ -76,6 +75,6 @@ h1, h2, h3 {
     color: red;
 }
 #verse {
-    padding: 40;
+    padding: 0;
     float: center;
 }
