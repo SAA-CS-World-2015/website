@@ -14,6 +14,8 @@ body {
     padding: 60px;
     background-color: white;
     margin: 0 auto;
+    border-width: 8px;
+    border-style: outset;
 }
 a {
     text-decoration: none;
@@ -34,14 +36,13 @@ a {
     padding: 10px;
 }
 #nav-wrapper {
-    background-color: 137589;
+    background-color: 6198a3;
     border: 3px solid black;
 }
 #footer {
     padding: 50px;
     float: left;
-    padding-left: 0px;
-    padding-bottom: 0px;
+    padding: 10px;
     font-size: 12px;
 }
 #article {
@@ -54,6 +55,9 @@ a {
 }
 #article-h2 {
     text-decoration: underline
+}
+#article-h4{
+    font-weight: none;
 }
 .container2 {
     background-image: url(flowers.jpg);

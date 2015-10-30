@@ -7,6 +7,8 @@ body {
     padding: 60px;
     background-color: white;
     margin: 0 auto;
+    border-width: 8px;
+    border-style: outset;
 }
 #header {
     background-color: 137589;
@@ -36,15 +38,14 @@ a {
     padding: 10px;
 }
 #nav-wrapper {
-    background-color: 137589;
+    background-color: 6198a3;
     border: 3px solid black;
     margin: 0;
 }
 #footer {
     padding: 50px;
     float: left;
-    padding-left: 0px;
-    padding-bottom: 0px;
+    padding: 10px;
     font-size: 12px;
 }
 #article p {
