@@ -76,10 +76,10 @@ h1,h2,h3,h4 {
     text-align: justify;
     float: left;
     width: 200px;
-    height: 200px;
-    border-color: #60e660;
+    height: 250px;
+    border-color: #55b548;
     border-bottom-style: solid;
-    background-color: #38c932;
+    background-color: green;
     color: #ffffff;    
 }
 
