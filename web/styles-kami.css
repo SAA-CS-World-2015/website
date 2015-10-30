@@ -1,18 +1,29 @@
 body {
-background-color: #eee;
+background-color: #16a7a7;
+    font-family: cursive;
 }
 
 #container{
-backgroud-color: white;
-width: 800px;
+backgroud-color: rgba(206, 255, 255, 0.96);
+width: 900;
 margin: 0 auto;
 }
 
 #header {
-background-color: #66ccff;
+background-color: #f0ebeb;
 color: white;
 padding: 10px;
 }
 #content {
     padding: 10px;
 }
+#nav {
+ width: 180px; 
+float: right
+}
+#article  {
+width: 600px;
+    text-align:left
+        
+}
+
