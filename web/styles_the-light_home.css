@@ -117,24 +117,34 @@ body {
     padding: 5px;
     background-color: gold;
     color: white;
+        margin-top: -9px;
      border-style: double;
     border-bottom-color: darkgoldenrod;
     border-right-color: darkgoldenrod;
     border-left-color: darkgoldenrod;
     border-top-color: darkgoldenrod;
+    border-radius: 7px;
+    float: left;
 }
 .button2 {
     padding: 5PX;
     background-color: gold;
     color: white;
     margin-left: 10px;
+    margin-top: -9px;
      border-style: double;
     border-bottom-color: darkgoldenrod;
     border-right-color: darkgoldenrod;
     border-left-color: darkgoldenrod;
     border-top-color: darkgoldenrod;
+    border-radius: 7px;
+    float: left;
 }
 #copyright {
     float: left;
     padding-left: 10px;
+}
+.search {
+    margin-right: 0px;
+    margin-left: 334px;
 }
