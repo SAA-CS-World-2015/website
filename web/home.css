@@ -20,6 +20,15 @@ a:hover {
     font-size: 30;
 }
 
+#hmenu li {
+    background-color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    float: left;
+    font-family: raleway, sans-serif;
+    font-size: 20; 
+}
+
 #container {
     background-color: #a70000;
     width: 1000px;
@@ -28,15 +37,6 @@ a:hover {
 
 #content {
     height: 800px;
-}
-
-#hmenu li {
-    background-color: #ffffff;
-    width: 200px;
-    padding: 10px;
-    float: left;
-    font-family: raleway, sans-serif;
-    font-size: 20; 
 }
 
 #image-home { 
@@ -55,8 +55,7 @@ a:hover {
     clear: both;
 }
 
-#
-#article {
+#article1 {
     background-color: #a70000;
     width: 260px;
     height: 500px;
@@ -82,6 +81,25 @@ a:hover {
     padding: 10px;
     color: #000000;
     font-family: Quicksand, sans-serif;
+    font-size: 20;
+    text-align: center;
+    clear: both;
+}
+
+#article3 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: Lily Script, sans-serif;
+    font-size: 20;
+    text-align: center;
+    clear: both;
+}
+
+#article7 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
     font-size: 20;
     text-align: center;
     clear: both;
