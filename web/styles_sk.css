@@ -4,38 +4,46 @@ link{
     list-style: none;
     color: black;
 } 
-#nav {
-    
-    
-}
 #wrap{
-    width: 100%;
-    margin: 0 auto;
+    width: 1700px;
     margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+    position: relative;
+    top: 0; left: 20; bottom: 0; right: 0;
+    background-image: url(computerfingers.jpg); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 
 }
 #nav li{
     float: right;
     height: 50px;
     padding: 10px;
-    color: black ;
+    
 }
 a:hover{
-    background-color: yellow;
+    background-color: aqua;
+    padding-top: 40px;
 }
 #sidebar1{
     width: 100px;
+    padding-left: 10px;
     float: left;
     height: 960px;
     background-color: aqua;
+    top: 78px; left: 9px; bottom: 90px; right: 78px;
 }
 #sidebar2{
     width: 100px;
+    padding-right: 10px;
     float: right;
     height: 960px;
     background: aqua;
+    top: 78px; left: 9px; bottom: 90px; right: 78px;
+}
+#secnav{
+    padding: 20px;
+    width: 25p;
 }
 #nav ul{
     list-style-type: none;
@@ -60,8 +68,7 @@ a:hover{
 body{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
-    
-
+    background-color: papayawhip;
 }
 .css-slideshow{
   position: relative;
