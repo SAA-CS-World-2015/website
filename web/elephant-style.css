@@ -3,7 +3,7 @@ body {
 }
 #header {
     background-color: darkcyan;
-    color: ivory;
+    color: red;
     padding: 10px 20px;
 }
 #container {
@@ -18,9 +18,10 @@ body {
     width: 180px;
     float: left;
     background-color: lightcyan;
-    height: 760px;
+    height: 868px;
     padding: 10px;
     font-size: 20px;
+    color: red;
 
 }
 #article {
@@ -33,6 +34,11 @@ body {
     padding: 10px;
     text-align: right;
     background-color: darkcyan;
+<<<<<<< HEAD
     color: ivory
 }
     
+=======
+    color: red;
+}
+>>>>>>> origin/GodsElephant.org

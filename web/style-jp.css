@@ -1,5 +1,5 @@
 body{
-    background-color: #eee;
+    background-color: white;
     font-family: helvetica, sans-serif;
 }
 
@@ -46,12 +46,16 @@ h4 {
                 position:relative;
                 padding:6px 15px;
                 left:-8px;
-                border:2px solid #207cca;
-                background-color:#207cca;
-                color:#fafafa;
+                border:2px solid;
+                background-color: #207cca;
+                color:white;
+}
+#nav .button {
+    width: 180px,
+    
 }
 .button:hover  {
-                background-color:#fafafa;
+                background-color:white;
                 color:#207cca;
 }
 #content {
@@ -72,8 +76,8 @@ h4 {
 }
 .button{
     padding: 5px;
-    background-color: red;
-    color: white;
+    background-color: lightgray;
+    color: red;
     width:150px;
     display: inline-block;
     text-align: center;
@@ -95,14 +99,18 @@ h4 {
     width: 590px;
     float: left;
     text-align:center;
-    margin-top: 00px; 
-    background-color:deepskyblue
+    margin-top:-155px; 
+    background-color:lavender;
+    
     
 }
 #footer {
     clear: both;
     padding: 10px;
+    background-color: #66d0ff;
+    color: red
 }
+
 
 
 
