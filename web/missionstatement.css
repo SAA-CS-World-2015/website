@@ -1,0 +1,77 @@
+link{
+    text-align: center;
+    list-style: none;
+    color: black;
+} 
+#wrap{
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+    position: relative;
+    top: 0; left: 20; bottom: ; right: 0;
+    background-image: url(comoutside.jpg); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+#nav li{
+    float: right;
+    height: 50px;
+    padding: 10px;
+    
+}
+a:hover{
+    background-color: aqua;
+    padding-top: 40px;
+}
+#sidebar1{
+    width: 100px;
+    padding-left: 10px;
+    float: left;
+    height: 960px;
+    background-color: aqua;
+    top: 78px; left: 9px; bottom: 90px; right: 78px;
+}
+#sidebar2{
+    width: 100px;
+    padding-right: 10px;
+    float: right;
+    height: 960px;
+    background: aqua;
+    top: 78px; left: 9px; bottom: 90px; right: 78px;
+}
+#secnav{
+    padding: 20px;
+    width: 25p;
+}
+#nav ul{
+    list-style-type: none;
+    margin: left;
+    padding: 20;
+    overflow: hidden;
+    text-a : right;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: fantasy;
+    font-feature-settings: normal;
+    color: black;
+}
+body{
+    color: aqua;
+    font-weight: 300;
+    background-color:;
+}
+.css-slideshow{
+  position: relative;
+  max-width: 495px;
+  height: 370px;
+  margin: 5em auto .5em auto;
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 495px;
+  height: 370px;
+  background: #000;
+  position: absolute;
+}
