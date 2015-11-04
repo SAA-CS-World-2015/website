@@ -2,19 +2,42 @@ body {
     background: #eee;
 }
 #header {
-    background-color: #66ccff;
-    color: ;
+    background-color: #66d0ff;
+    color: lightcoral;
     padding: 10px;
 }
 #container {
-    background-color: lightgray;
+    background-color: lavender;
     width: 900px;
-    margin-left: auto;
-    margin-right: auto;
 margin: 0 auto;
-    height: 900px;
+    overflow: hidden;
 }
-#content {
+#article {
+    float: left;
+    width: 720px;
+    
+}
+
+
+ol li{
+    padding-bottom: 10px;
+}
+#footer{
+    padding: 20px;
+    text-align: right;
+    background-color: #66d0ff;
+    color: lightcoral;
+    clear: both;
+}
+#nav {
+    
+    width: 150px;
+    float: left;
+    background-color: lightgray;
+    height: 500px;
     padding: 10px;
+    font-size: 15px;
 }
-#nav
+#menu {
+    margin-top: 80px;
+}
