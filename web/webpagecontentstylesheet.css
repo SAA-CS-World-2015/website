@@ -1,9 +1,11 @@
-#header {background-color: darkcyan; padding: 5px 10px; width: 626; float: right; color: #b90505; border: 2px solid #005353; height: 77}
+#header {background-color: darkcyan; padding: 5px 10px; width: 626; float: right; color: #b90505; border: 2px solid #005353; height: 76}
 #container {background-color: #ffffff; width: 800; margin: 0 auto}
 #content {padding: 10;}
-#footer {width: 126; height: 65px; float: left; background-color: darkcyan; padding: 0px 10px; color: crimson; border: 2px solid #005353}
-#nav2 {width: 126px; background-color: lightcyan; height: 732; float: left; color: #b90505; padding: 20px 10px; border: 2px solid darkcyan}
-#article {width: 610px; height: 804; padding: 20px 20px; float: right; background-color: #eeeeee;}
+#footer {width: 126; height: 65px; float: left; background-color: darkcyan; padding: 0px 10px; color: crimson; border: 2px solid #005353; text-align: center}
+#nav2 {width: 126px; background-color: lightcyan; height: 732; float: left; color: #b90505; padding: 20px 10px; border: 2px solid darkcyan; text-align: center}
+#article {width: 610px; height: 805; padding: 20px 20px; float: right; background-color: #eeeeee;}
 body {background-color: #717171}
 #nav1 {float: left; background-color: crimson; width: 146px; height: 86; border: 2px solid #810101}
-.button {padding: 5px 10px; width: 103px; border: 2px solid #005353; background-color: darkcyan; color:#b90505; display: block}
+.button {padding: 5px 10px; width: 103px; border: 2px solid #005353; background-color: darkcyan; color:#b90505; display: block; text-align: center}
+.button:hover {background-color: lightcyan; color: crimson}
+#nav1 img {left: -19px}
