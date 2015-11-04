@@ -90,7 +90,34 @@ a:hover {
     background-color: #a70000;
     padding: 10px;
     color: #000000;
-    font-family: philosorpher, sans-serif;
+    font-family: philosopher, sans-serif;
+    font-size: 20;
+    text-align: center;
+}
+
+#article4 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: philosopher, sans-serif;
+    font-size: 20;
+    text-align: center;
+}
+
+#article5 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: philosopher, sans-serif;
+    font-size: 20;
+    text-align: center;
+}
+
+#article6 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: philosopher, sans-serif;
     font-size: 20;
     text-align: center;
 }
@@ -102,6 +129,42 @@ a:hover {
     font-size: 20;
     text-align: center;
     clear: both;
+}
+
+#article8 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: philosopher, sans-serif;
+    font-size: 20;
+    text-align: center;
+}
+
+#article9 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: philosopher, sans-serif;
+    font-size: 20;
+    text-align: center;
+}
+
+#article10 {
+  background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: philosopher, sans-serif;
+    font-size: 20;
+    text-align: center;  
+}
+
+#article11 {
+    background-color: #a70000;
+    padding: 10px;
+    color: #000000;
+    font-family: philosopher, sans-serif;
+    font-size: 20;
+    text-align: center;
 }
 
 #footer {
