@@ -1,8 +1,8 @@
 body {
-    background-color: #eee;
+    background-color: white;
 }
 #header {
-    background-color: darkcyan;
+    background-color: #66d0ff;
     color: red;
     padding: 10px 20px;
 }
@@ -17,7 +17,7 @@ body {
     
     width: 180px;
     float: left;
-    background-color: lightcyan;
+    background-color: lightgray;
     height: 868px;
     padding: 10px;
     font-size: 20px;
@@ -28,11 +28,11 @@ body {
     width: 580px;
     float: left;
     padding: 10px;
-    background-color: white;
+    background-color: lavender;
 }
 #footer {
     padding: 20px;
     text-align: right;
-    background-color: darkcyan;
+    background-color: #66d0ff;
     color: red;
 }
