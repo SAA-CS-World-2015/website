@@ -1,7 +1,8 @@
 link{
     text-align: center;
     list-style: none;
-    color: black;
+    color: blue;
+    font: 
 } 
 #wrap{
     width: 1000px;
@@ -21,10 +22,11 @@ link{
     padding: 10px;
     
 }
-a:hover{
+#nav a:hover{
     background-color: aqua;
-    padding-top: 40px;
+    padding-top: 90;
 }
+
 #sidebar1{
     width: 100px;
     padding-left: 10px;
@@ -41,6 +43,7 @@ a:hover{
     background: aqua;
     top: 78px; left: 9px; bottom: 90px; right: 78px;
 }
+
 #secnav{
     padding: 20px;
     width: 25p;
@@ -60,18 +63,5 @@ a:hover{
 body{
     color: aqua;
     font-weight: 300;
-    background-color:;
-}
-.css-slideshow{
-  position: relative;
-  max-width: 495px;
-  height: 370px;
-  margin: 5em auto .5em auto;
-}
-.css-slideshow figure{
-  margin: 0;
-  max-width: 495px;
-  height: 370px;
-  background: #000;
-  position: absolute;
+    
 }

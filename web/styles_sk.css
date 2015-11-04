@@ -5,11 +5,12 @@ link{
     color: black;
 } 
 #wrap{
-    width: 1700px;
+    width: px;
+    height: px;
     margin: auto;
     position: relative;
-    top: 0; left: 20; bottom: 0; right: 0;
-    background-image: url(computerfingers.jpg); 
+    top: 0; left: ; bottom: ; right: 0;
+    background-image: url(comoutside.jpg); 
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -25,7 +26,7 @@ a:hover{
     background-color: aqua;
     padding-top: 40px;
 }
-#sidebar1{
+{
     width: 100px;
     padding-left: 10px;
     float: left;
@@ -57,18 +58,10 @@ a:hover{
     font-feature-settings: normal;
     color: black;
 }
-#logo{
-    width: 5px;
-    float: left;
-    padding: 60px;
-    background-image: url(Capture.JPG); 
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 body{
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    color: aqua;
     font-weight: 300;
-    background-color: papayawhip;
+    background-color:;
 }
 .css-slideshow{
   position: relative;
