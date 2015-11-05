@@ -8,4 +8,4 @@ body {background-color: #717171}
 #nav1 {float: left; background-color: crimson; width: 146px; height: 86; border: 2px solid #810101}
 .button {padding: 5px 10px; width: 103px; border: 2px solid #005353; background-color: darkcyan; color:#b90505; display: block; text-align: center}
 .button:hover {background-color: lightcyan; color: crimson}
-#nav1 img {left: -19px}
+#nav1 img {padding-left: 4px}
