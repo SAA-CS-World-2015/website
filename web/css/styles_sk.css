@@ -1,16 +1,16 @@
+
 link{
     text-align: center;
     list-style: none;
-    color: blue;
-    font: 
+    color: black;
 } 
 #wrap{
-    width: 1000px;
-    height: 900px;
+    width: 1200px;
+    height: px;
     margin: auto;
     position: relative;
-    top: 0; left: 20; bottom: ; right: 0;
-    background-image: url(comoutside.jpg); 
+    top: 0; left: ; bottom: ; right: 0;
+    background-image: url(../pictures/comoutside.jpg); 
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -24,18 +24,8 @@ link{
 }
 #nav a:hover{
     background-color: aqua;
-    padding-top: 90;
+    padding-top: 40px;
 }
-
-#sidebar1{
-    width: 100px;
-    padding-left: 10px;
-    float: left;
-    height: 960px;
-    background-color: aqua;
-    top: 78px; left: 9px; bottom: 90px; right: 78px;
-}
-
 #sidebar2{
     width: 100px;
     padding-right: 10px;
@@ -44,7 +34,6 @@ link{
     background: aqua;
     top: 78px; left: 9px; bottom: 90px; right: 78px;
 }
-
 #secnav{
     padding: 20px;
     width: 25p;
@@ -61,8 +50,4 @@ link{
     font-feature-settings: normal;
     color: black;
 }
-body{
-    color: aqua;
-    font-weight: 300;
-    
-}
+
