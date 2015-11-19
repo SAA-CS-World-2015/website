@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>My Calculator</title>
+    </head>
+    <body>
+        <h1>The Calculator of Power</h1>
+        <p>Use this calculator by putting your numbers in the fields.</p>
+        <input id="firstNumber" type="text"/>-?-<input id="secondNumber" type="text"/><br /><br /> 
+        <button id="add" onclick="add()">Add</button>
+        <button id="subtract" onclick="subtract()">Subtract</button>
+        <button id="multiply" onclick="multiply()">Multiply</button>
+        <button id="divide" onclick="divide()">Divide</button>
+        
+        <script>
+            function add() {
+                var x = parseFloat(document.getElementById("firstNumber").value);
+                var y = parseFloat(document.getElementById("secondNumber").value);
+                var z = x + y;
+                window.alert(z);
+            }
+            
+            function subtract() {
+                var x = parseFloat(document.getElementById("firstNumber").value);
+                var y = parseFloat(document.getElementById("secondNumber").value);
+                var z = x - y;
+                window.alert(z);
+            }
+            
+            function multiply() {
+                var x = parseFloat(document.getElementById("firstNumber").value);
+                var y = parseFloat(document.getElementById("secondNumber").value);
+                var z = x * y;
+                window.alert(z);
+            }
+            
+            function divide() {
+                var x = parseFloat(document.getElementById("firstNumber").value);
+                var y = parseFloat(document.getElementById("secondNumber").value);
+                var z = x / y;
+                window.alert(z);
+            }
+        </script>
+    </body>
+</html>

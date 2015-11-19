@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1><p id="message">Don't Be Sad...</p></h1>
+            <button type="button" onclick="myFunction()">Press Me</button>
+                 <img id="myImage" onclick="myFunction()" src="sad.jpg" height="221px">
+            <script>
+                function myFunction() {
+                    var image = document.getElementById('myImage');
+                    var text = document.getElementById('message');
+                    if (image.src.match("sad")) {
+                            image.src = "happy.jpg";
+                            text.innerHTML="Be Happy!";
+                        } else {
+                        image.src = "sad.jpg";
+                         text.innerHTML="Don't Be Sad...";
+                                        }
+                                     }
+        </script>
+    </body>
+</html>
