@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Can Change Images</h1>
+
+<img id="Turtle In Shell" onclick="changeImage()" src="pic_Turtle In Shell" width="200" height="180">
+
+<p>Click the light bulb to turn on/off the light.</p>
+
+<script>
+function changeImage() {
+    var image = document.getElementById('Turtle In Shell');
+    if (image.src.match("Turtle Out of Shell Cartoon")) {
+        image.src = "pic_Turtle Out of Shell Cartoon";
+    } else {
+        image.src = "pic_turtleinshell";
+    }
+}
+</script>
+
+</body>
+</html>

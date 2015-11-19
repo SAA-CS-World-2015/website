@@ -8,7 +8,7 @@ a {
     color: #A78214;
 }
 
-h1 {
+h2 {
     margin: 0;
 }
 
@@ -24,4 +24,12 @@ p {
 }
 #footer {
     float: middle;
+}
+#container {
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;     
+}
+#content {
+    padding: 10px;
 }
