@@ -52,14 +52,18 @@ background-color: white;
     font-size: 25;
     font-family:serif; 
 }
-    
-#article {
-    width: 600px; 
-    Float: right;
-
-}
-#article1 { 
+#article1 {
     padding-top: 70px; 
+}
+#body1 li {
+    line-height: 200px;
+    list-style-type: none;
+    font-size: 25
+}
+#body1 {
+    padding-top: 80px;
+    background-color: whitesmoke;
+    Height: 1000
 }
 #footer {
     clear: both; 

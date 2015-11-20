@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Calculator</h1>
+
+<p>Add the values.</p>
+<input type="text" id="firstName"></input><br/>
+<input type="text" id="lastName"></input>
+
+<p id="demo"></p>
+<button onclick="add()">add</button>
+<button onclick="subtraction()">subtract</button>
+<button onclick="division()">divide</button>
+<button onclick="multiplication()">multiply</button>
+
+
+<script>
+var firstName  = document.getElementById("firstName");
+var lastName  = document.getElementById("lastName");
+
+function add() {
+document.getElementById("demo").innerHTML = parseFloat(firstName.value) + parseFloat(lastName.value);
+}
+function subtraction() {
+document.getElementById("demo").innerHTML = parseFloat(firstName.value) - parseFloat(lastName.value);
+}
+ function division() {
+document.getElementById("demo").innerHTML = parseFloat(firstName.value) / parseFloat(lastName.value);
+}
+function multiplication() {
+document.getElementById("demo").innerHTML = parseFloat(firstName.value) * parseFloat(lastName.value);
+}
+</script>
+</body>
+</html>
+   

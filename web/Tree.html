@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        div {
+            position: absolute;
+        }
+        .tree {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 200px solid green;
+        }
+        .bulb {
+            width: 10px;
+            height: 10px;
+            background: red;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+    </style>
+<body>
+
+<h1>Operation Christmas Tree</h1>
+
+    <div class="tree" style="top: 250px; left: 245px;"></div>
+    <div class="bulb" style="top: 300px; left: 285px;"></div>
+    <div class="bulb" style="top: 330px; left: 295px; background: yellow;"></div>
+    <div id="light1" class="bulb" style="top: 270px; left: 290px; background: green; width: 5px; height: 5px"></div>
+   <div id="light2" class="bulb" style="top: 350px; left: 290px; background: green; width: 5px; height: 5px"></div>
+   <div id="light3" class="bulb" style="top: 350px; left: 300px; background: green; width: 5px; height: 5px"></div>
+    <script>
+  window.setTimeout(function(){
+            document.getElementById("light1").style.background = "white";
+        }, 1500);
+         window.setTimeout(function(){
+            document.getElementById("light1").style.background = "green";
+         }, 3000);
+        
+ window.setTimeout(function(){
+            document.getElementById("light2").style.background = "white";
+        }, 2000);
+         window.setTimeout(function(){
+            document.getElementById("light2").style.background = "green";
+         }, 3500);
+ window.setTimeout(function(){
+            document.getElementById("light3").style.background = "white";
+        }, 2500);
+         window.setTimeout(function(){
+            document.getElementById("light3").style.background = "green";
+         }, 4000);
+
+
+
+    </script>
+
+</body>
+</html>
