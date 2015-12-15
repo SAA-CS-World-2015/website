@@ -1,0 +1,18 @@
+<html>
+    <div id="onlydiv">
+        <body>
+            <img id="closed" src="images/boxc.jpg" width="300" height="360">
+            <button onclick="changeImage()">Click</button>
+            <script>
+            function changeImage() 
+                {var image = document.getElementById('closed');
+                 var text = document.getElementById('message');
+                if (image.src.match("boxc")) 
+                {image.src="images/boxo.jpg"
+                text.innerHTML = "cool you opened a box you must feel so acomplished"}
+                else {image.src = "images/boxc.jpg";
+                     window.alert("cool you opened a box you must feel so                                    acomplished");}}
+            </script>
+        </body>
+    </div>
+</html>

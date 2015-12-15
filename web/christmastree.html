@@ -1,0 +1,189 @@
+<html>
+    <head>
+    <style>
+        div
+        {position: absolute}
+        .tree {	width: 0;
+                height: 0;
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent; 
+                border-bottom: 400px solid green;
+                float: left}
+        .light1 {background: red;
+                    width: 10px;
+                    height: 10px;
+                    position: relative;
+                    text-align: center;}
+        .light1:before, .light1:after 
+                {content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 10px;
+                width: 10px;
+                background: red;}
+                .light1:before 
+                {-webkit-transform: rotate(30deg);
+                -moz-transform: rotate(30deg);
+                -ms-transform: rotate(30deg);
+                -o-transform: rotate(30deg);}
+                .light1:after 
+                {-webkit-transform: rotate(60deg);
+                -moz-transform: rotate(60deg);
+                -ms-transform: rotate(60deg);
+                -o-transform: rotate(60deg);}
+        
+        .light2 {background: blue;
+                    width: 10px;
+                    height: 10px;
+                    position: relative;
+                    text-align: center;}
+        .light2:before, .light2:after 
+                {content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 10px;
+                width: 10px;
+                background: blue;}
+                .light2:before 
+                {-webkit-transform: rotate(30deg);
+                -moz-transform: rotate(30deg);
+                -ms-transform: rotate(30deg);
+                -o-transform: rotate(30deg);}
+                .light2:after 
+                {-webkit-transform: rotate(60deg);
+                -moz-transform: rotate(60deg);
+                -ms-transform: rotate(60deg);
+                -o-transform: rotate(60deg);}
+        
+        .light3 {background: yellow;
+                    width: 10px;
+                    height: 10px;
+                    position: relative;
+                    text-align: center;}
+        .light3:before, .light3:after 
+                {content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 10px;
+                width: 10px;
+                background: yellow;}
+                .light3:before 
+                {-webkit-transform: rotate(30deg);
+                -moz-transform: rotate(30deg);
+                -ms-transform: rotate(30deg);
+                -o-transform: rotate(30deg);}
+                .light3:after 
+                {-webkit-transform: rotate(60deg);
+                -moz-transform: rotate(60deg);
+                -ms-transform: rotate(60deg);
+                -o-transform: rotate(60deg);}
+        
+        .star {background: yellow;
+                    width: 30px;
+                    height: 30px;
+                    position: relative;
+                    text-align: center;}
+        .star:before, .star:after 
+                {content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 30px;
+                width: 30px;
+                background: #fff500;}
+                .star:before 
+                {-webkit-transform: rotate(30deg);
+                -moz-transform: rotate(30deg);
+                -ms-transform: rotate(30deg);
+                -o-transform: rotate(30deg);}
+                .star:after 
+                {-webkit-transform: rotate(60deg);
+                -moz-transform: rotate(60deg);
+                -ms-transform: rotate(60deg);
+                -o-transform: rotate(60deg);}
+        
+    </style>
+    </head>
+    <body>
+        <div style="right:380"><h1>Merry Christmas!</h1></div>
+        <div class="tree" style="top: 200px; right: 400px;"></div>
+        <div class="star" style="top: 190px; left: 421px;"></div>
+        
+        <div id=1  class="light1" style="top: 255px; left: 420px;"></div>
+        <div id=2  class="light2" style="top: 405px; left: 451px;"></div>
+        <div id=3  class="light3" style="top: 289px; left: 411px;"></div>
+        <div id=4  class="light2" style="top: 323px; left: 461px;"></div>
+        <div id=5  class="light3" style="top: 131px; left: 431px;"></div>
+        <div id=6  class="light3" style="top: 470px; left: 490px;"></div>        
+        <div id=7  class="light1" style="top: 320px; left: 421px;"></div>        
+        <div id=8  class="light1" style="top: 350px; left: 381px;"></div>        
+        <div id=9  class="light1" style="top: 370px; left: 481px;"></div>        
+        <div id=10 class="light3" style="top: 380px; left: 401px;"></div>        
+        <div id=11 class="light2" style="top: 410px; left: 371px;"></div>        
+        <div id=12 class="light1" style="top: 400px; left: 451px;"></div>        
+        <div id=13 class="light3" style="top: 150px; left: 451px;"></div>        
+        <div id=14 class="light2" style="top: 090px; left: 435px;"></div>
+        
+        <div style="left: 430; top: 600; width: 30; height: 100; background: brown;">           </div>
+        <script>
+     {document.getElementById("1").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("1").style.background = "red";}, 1000);
+            
+     {document.getElementById("2").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("2").style.background = "blue";}, 2000);
+            
+     {document.getElementById("3").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("3").style.background = "yellow";}, 3000);
+            
+     {document.getElementById("4").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("4").style.background = "blue";}, 2200);  
+            
+     {document.getElementById("5").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("5").style.background = "yellow";}, 3200);  
+     
+     {document.getElementById("6").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("6").style.background = "yellow";}, 3400); 
+            
+     {document.getElementById("7").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("7").style.background = "red";}, 1200);
+            
+     {document.getElementById("8").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("8").style.background = "red";}, 1400);
+     
+     {document.getElementById("9").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("9").style.background = "red";}, 1600);
+            
+     {document.getElementById("10").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("10").style.background = "yellow";}, 3800);
+            
+     {document.getElementById("11").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("11").style.background = "blue";}, 2400);
+            
+     {document.getElementById("12").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("12").style.background = "red";}, 1800);  
+            
+     {document.getElementById("13").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("13").style.background = "yellow";}, 4000);  
+     
+     {document.getElementById("14").style.background = "white"}
+            setTimeout(function()
+                {document.getElementById("14").style.background = "blue";}, 2200); 
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+#header {background-color: darkcyan; padding: 5px 10px; width: 626; float: right; color: #b90505; border: 2px solid #005353; height: 76}
+#container {background-color: #ffffff; width: 800; margin: 0 auto}
+#content {padding: 10;}
+#footer {width: 776; height: 65px; float: left; background-color: darkcyan; padding: 0px 10px; color: crimson; border: 2px solid #005353; text-align: center}
+#nav2 {background-color: lightcyan; height: 200; color: #b90505; padding: 20px 10px; border: 2px solid darkcyan; text-align: center}
+#home { height: 578; padding: 20px 20px; background-color: #eeeeee; float: }
+body {background-color: #717171}
+#nav1 {float: left; background-color: crimson; width: 146px; height: 86; border: 2px solid #810101}
+.button {padding: 5px 10px; width: 103px; border: 2px solid #005353; background-color: darkcyan; color:#b90505; display: block; text-align: center}
+.button:hover {background-color: lightcyan; color: #fd5174}
+#nav1 img {padding-left: 4px}
+#B1 {}
+#B2 {}
+#B3 {}

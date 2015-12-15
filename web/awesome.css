@@ -1,0 +1,29 @@
+body {
+	background-color: fuchsia;
+	
+}	
+.square {
+	width: 200px;
+	height: 200px;
+	float: left;
+	font-size: 148px;
+	text-align: center;
+	cursor: pointer;
+}
+#one {
+	background-color: red;
+}
+#two {
+	background-color: green;
+}
+#three {
+	background-color: blue;
+	clear: left;
+}
+#four {
+	background-color: yellow;
+}
+#buttons {
+	clear: left;
+	padding-top: 20px;
+}
