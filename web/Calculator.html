@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Expressions</h1>
+
+<p>Add the values.</p>
+<input type="text" id="firstName"></input><br/>
+<input type="text" id="lastName"></input>
+<input type="text" /> +-*/ <input type="text" /><br /><br /> 
+
+<button>Add</button> 
+<button>Subtract</button> 
+<button>Multiply</button> 
+<button>Divide</button>
+
+<p id="demo"></p>
+<button id="getName" onclick="getNames()">Get Name</button>
+
+<script>
+var firstName  = document.getElementById("firstName");
+var lastName  = document.getElementById("lastName");
+
+function getNames() {
+document.getElementById("demo").innerHTML = "Hi" + firstName.value + " "  + lastName.value;
+}
+</script>
+
+</body>
+</html>
